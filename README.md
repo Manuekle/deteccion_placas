@@ -22,8 +22,11 @@ git clone https://github.com/Manuekle/deteccion_placas.git
 
 cd deteccion_placas
 
+# crear el entonro virtual
+python -m venv env
+
 # iniciar el entorno virtual
-python -m venv env 
+.\env\Scripts\activate 
 
 # instalar dependencias de python
 pip install requirements.txt
